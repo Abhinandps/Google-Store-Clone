@@ -24,11 +24,19 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+  
 }
 
 .card img{
-    width: 150px;
+    transform: scale(0.5);
+    transition: transform 0.3s;
 }
+.card img:hover{
+    transform: scale(0.8);
+}
+
+
+
 
 .bg-body-light a{
     display: none;
