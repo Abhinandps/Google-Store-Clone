@@ -1,4 +1,8 @@
 
+a{
+    text-decoration: none;
+}
+
 .google-logo, .search ,.cart,.qustion{
     width: 24px;
     height: 24px;
@@ -55,6 +59,52 @@
 }
 
 
+
+
+/* Carousel  */
+
+.carousel-inner{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.carousel-item img{
+   width:100%;
+   height: 100%;
+}
+
+.carousel-control-prev::before,
+.carousel-control-next::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #000;
+    position: absolute;
+    z-index:-1;
+    padding:30px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:1200px) {
     .card{
         padding: 80px 7%;
@@ -90,6 +140,12 @@
 @media screen and (max-width:520px) {
     .card{
         padding: 10px ;
+    }
+    .carousel-inner{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+
     }
     
 }
